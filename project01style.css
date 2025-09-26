@@ -95,8 +95,8 @@ h1 {
     font-style: normal;
     }
 
-    .lores21ot {
-    font-family: "lores-21-serif", sans-serif;
+    .lores12 {
+    font-family: "lores-12", sans-serif;
     font-weight: 400;
     font-style: normal;
     }
@@ -154,30 +154,37 @@ p {
       margin-top: 1rem;
       margin-bottom: 1rem;
       color: #141414;
+      font-family: "akzidenz-grotesk-next-pro", sans-serif;
+      font-weight: 400;
+      font-style: normal;
     }
 
 body {
-      padding: 3rem;
       background-color: #F5F5F0;
-      padding-right: 10em;
-      padding-left: 10em;
+      padding-top: 4rem;
     } 
 
+.lupton {
+    padding-right: 7em;
+    padding-left: 7em;
+}
 
 blockquote {
         font-size: 1.5rem;
         font-style: italic;
-        padding: 2rem;
+        padding: 2.5rem;
+        padding-bottom: 2.75rem;
+        
     }
 
-.monster {
-    font-family: "bodoni-egyptian-pro", serif;
-    font-weight: 400;
-    font-style: normal;
+blockquote p {
+    line-height: 1.8rem;
+    font-style: italic;
+    color: #5b5b5b;
 }
 
-.monster h4 {
-    font-family: "bodoni-egyptian-pro", serif;
+h4 {
+    font-family: "akzidenz-grotesk-next-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
@@ -190,6 +197,31 @@ blockquote {
   font-weight: 400;
   font-style: normal;
 }
+
+.french em {
+    color: #F5F5F0;
+    text-shadow: none;
+    font-style: italic;
+}
+
+.french {
+    text-shadow: none;
+    font-style: italic;
+    background-color: rgb(17, 25, 138);
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.french p {
+   color: #F5F5F0;
+}
+
+.french h2 {
+   color: #F5F5F0;
+}
+
 
 
 
