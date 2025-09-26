@@ -140,6 +140,7 @@ header p {
 
 time {
     color: rgb(97, 189, 255);
+    font-style: normal;
 }
 
 em {
@@ -148,7 +149,7 @@ em {
     }
 
 h1 em {
-    color: #141414;;
+    color: #141414;
 }
 
 p {
@@ -226,6 +227,15 @@ h4 {
    text-decoration: overline rgb(97, 189, 255);
 }
 
+.designer {
+    font-weight: 700;
+    color: #141414;
+    font-style: normal;
+}
+
+blockquote time {
+    font-weight: 700;
+} 
 
 
 
