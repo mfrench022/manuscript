@@ -9,6 +9,7 @@ h1 {
       transition: ease-in-out 300ms;
       line-height: 3.5rem;
       color: #141414;
+      margin-bottom: 10rem;
     }
 
     .caslon {
@@ -123,6 +124,7 @@ h2 {
     margin-top: 2.5em;
     margin-bottom: 0.5em;
     color: #141414;
+    text-decoration: overline rgb(17, 25, 138);;
 }
 
 header p {
@@ -136,7 +138,7 @@ header p {
     color: #141414;
 }
 
-header time {
+time {
     color: rgb(97, 189, 255);
 }
 
@@ -161,7 +163,7 @@ p {
 
 body {
       background-color: #F5F5F0;
-      padding-top: 4rem;
+      padding-top: 3rem;
     } 
 
 .lupton {
@@ -188,6 +190,7 @@ h4 {
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
+    color: rgb(17, 25, 138);
 }
 
 .cursor {
@@ -220,6 +223,7 @@ h4 {
 
 .french h2 {
    color: #F5F5F0;
+   text-decoration: overline rgb(97, 189, 255);
 }
 
 
