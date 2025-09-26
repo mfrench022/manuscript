@@ -4,14 +4,6 @@
 
 /* START OF HEADING TIMELINE FONTS */
 
-h1 {
-      font-size: 5rem;
-      transition: ease-in-out 300ms;
-      line-height: 3.5rem;
-      color: #141414;
-      margin-bottom: 10rem;
-    }
-
     .caslon {
     font-family: adobe-caslon-pro, serif;
     font-weight: 400;
@@ -114,28 +106,42 @@ h1 {
     font-style: normal;
     }
 
-    /* END OF HEADING TIMELINE FONT */
+    /* END OF HEADING TIMELINE FONTS */
 
 h2 {
     font-family: "akzidenz-grotesk-next-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
-    margin-top: 2.5em;
-    margin-bottom: 0.5em;
+    margin-block-start: 2.5em;
+    margin-block-end: 0.5em;
     color: #141414;
-    text-decoration: overline rgb(17, 25, 138);;
+    text-decoration: overline rgb(17, 25, 138);
 }
+
 
 header p {
     text-align: end;
     font-family: "akzidenz-grotesk-next-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    font-size: 1.5rem;
+    margin-block-start: -0.6em;
+    margin-block-end: 5em;
     color: #141414;
+}
+
+.main {
+    background-color:#F5F5F0;
+    font-size: 5rem;
+    transition: ease-in-out 300ms;
+    color: #F5F5F0;
+    inset-block-start: 0;
+    padding: 2rem;
+    padding-inline-start: 7rem;
+    position: fixed;
+    width: 100%;
+    line-height: 3.4rem;
 }
 
 time {
@@ -154,8 +160,8 @@ h1 em {
 
 p {
       line-height: 1.3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-block-start: 1rem;
+      margin-block-end: 1rem;
       color: #141414;
       font-family: "akzidenz-grotesk-next-pro", sans-serif;
       font-weight: 400;
@@ -164,19 +170,19 @@ p {
 
 body {
       background-color: #F5F5F0;
-      padding-top: 3rem;
+      margin-block-start: 14rem;
     } 
 
 .lupton {
-    padding-right: 7em;
-    padding-left: 7em;
+    padding-inline-end: 32em;
+    padding-inline-start: 7em;
 }
 
 blockquote {
         font-size: 1.5rem;
         font-style: italic;
-        padding: 2.5rem;
-        padding-bottom: 2.75rem;
+        padding: 3rem;
+        padding-block-end: 3.8rem;
         
     }
 
@@ -194,14 +200,6 @@ h4 {
     color: rgb(17, 25, 138);
 }
 
-.cursor {
-  animation: blink 1s step-start infinite;
-  color: rgb(17, 25, 138);
-  font-family: "lores-22-narrow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .french em {
     color: #F5F5F0;
     text-shadow: none;
@@ -212,10 +210,10 @@ h4 {
     text-shadow: none;
     font-style: italic;
     background-color: rgb(17, 25, 138);
-    padding-right: 7em;
-    padding-left: 7em;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-inline-end: 7em;
+    padding-inline-start: 32em;
+    padding-block-start: 2.5em;
+    padding-block-end: 2.5em;
 }
 
 .french p {
@@ -238,9 +236,13 @@ blockquote time {
 } 
 
 
-
-
-
+.cursor {
+  animation: blink 1s step-start infinite;
+  color: rgb(17, 25, 138);
+  font-family: "lores-22-narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
