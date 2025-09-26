@@ -1,3 +1,128 @@
+:root {
+    font-size: 125%;
+}
+
+/* START OF HEADING TIMELINE FONTS */
+
+h1 {
+      font-size: 5rem;
+      transition: ease-in-out 300ms;
+      line-height: 3.5rem;
+    }
+
+    .caslon {
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .baskerville {
+    font-family: berthold-baskerville-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .bodoni {
+    font-family: bodoni-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .egyptian {
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .slab {
+    font-family: "hwt-slab-antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .clarendon {
+    font-family: "clarendon-text-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .vanlanen {
+    font-family: "hwt-van-lanen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    }
+    
+    .american {
+    font-family: "hwt-american-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .tripoli {
+    font-family: "am-tripoli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .akzidenz {
+    font-family: "akzidenz-grotesk-next-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .futura {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .helvetica {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .lores21 {
+    font-family: "lores-21-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .lores9 {
+    font-family: "lores-9-plus-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .lores21ot {
+    font-family: "lores-21-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .lores9 {
+    font-family: "lores-9-minus-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .didot {
+    font-family: "aw-conqueror-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    /* END OF HEADING TIMELINE FONT */
+
+h2 {
+    font-family: "akzidenz-grotesk-next-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+
 em {
       font-style: italic;
     }
@@ -13,34 +138,6 @@ body {
       padding: 2rem;
     } 
 
-h1 {
-      text-decoration: underline;
-      font-size: 3rem;
-      transition: ease-in-out 300ms;
-    }
-
-h1:hover {
-    font-size: 5rem;
-    transition: ease-in-out 300ms;
-    color: tomato;
-}
-
-blockquote:hover {
-    font-size: 2rem;
-    transition: ease-in-out 300ms;
-    color: tomato;
-}
-
-h2, h3 {
-      font-style: italic;
-      font-size: 1.5rem;
-    }
-
-h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 1rem;
-}
 
 blockquote {
         font-size: 1.5rem;
