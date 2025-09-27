@@ -185,6 +185,21 @@ body {
     margin-block-start: 15.5rem;
 }
 
+footer {
+   padding-block: 1em;
+   padding-inline-start: 7em;
+}
+
+footer p {
+    font-family: "akzidenz-grotesk-next-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(17, 25, 138);
+    line-height: 1.85ex;
+    margin-block: 0.3rem;
+}
+
 blockquote {
         font-size: 1.5rem;
         font-style: italic;
@@ -286,6 +301,7 @@ blockquote time {
 .french .secondary {
     background-color: rgb(17, 25, 138);
 }
+
 
 
 
