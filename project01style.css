@@ -152,7 +152,7 @@ time {
 
 em {
     color: rgb(17, 25, 138);
-    text-shadow: 0.06rem 0.06rem 0.1rem rgba(97, 189, 255, 0.699);
+    text-shadow: 0.06rem 0.06rem 0.1rem rgb(97, 189, 255);
     }
 
 h1 em {
@@ -170,7 +170,7 @@ p {
     }
 
 body {
-      background-color: rgba(97, 189, 255, 0.196);
+      background-color: rgb(217, 239, 255);
     } 
 
 .lupton {
