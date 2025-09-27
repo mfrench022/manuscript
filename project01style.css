@@ -1,6 +1,6 @@
 :root {
     font-size: 125%;
-    --masthead-offset: 8.4rem;
+    --masthead-offset: 18.35%;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -116,8 +116,10 @@ h2 {
     font-size: 2rem;
     margin-block-start: 2.5em;
     margin-block-end: 0.5em;
+    padding-block-start: 0.5rem;
     color: #141414;
     border-block-start: solid rgb(17, 25, 138) 0.25rem;
+    line-height: 1.85ex;
 }
 
 
@@ -131,6 +133,7 @@ header p {
     margin-block-end: 5em;
     color: #141414;
     padding-block-end: 0.5rem; 
+    line-height: 2ex;
 }
 
 .main {
@@ -144,7 +147,7 @@ header p {
     padding-inline-start: 1.5rem;
     position: fixed;
     width: 100%;
-    line-height: 3.4rem;
+    line-height: 1.3ex;
     z-index: 10;
 }
 
@@ -163,7 +166,7 @@ h1 em {
 }
 
 p {
-      line-height: 1.3rem;
+      line-height: 2.5ex;
       margin-block-start: 1rem;
       margin-block-end: 1rem;
       color: #141414;
@@ -193,7 +196,7 @@ blockquote {
     }
 
 blockquote p {
-    line-height: 1.8rem;
+    line-height: 2.75ex;
     font-style: italic;
     color: #5b5b5b;
 }
@@ -204,6 +207,7 @@ h4 {
     font-style: normal;
     font-size: 1.5rem;
     color: rgb(17, 25, 138);
+    line-height: 1.75ex;
 }
 
 .french em {
@@ -235,7 +239,26 @@ h4 {
     font-weight: 700;
     color: #141414;
     font-style: normal;
+    transition: ease-in-out 300ms;
 }
+
+a {
+    text-decoration: underline;
+    transition: ease-in-out 300ms;
+    color: #141414;
+}
+
+a:visited {
+    color: rgb(17, 25, 138);
+    transition: ease-in-out 300ms;
+}
+
+a:hover {
+    color: rgb(97, 189, 255);
+    transition: ease-in-out 300ms;
+}
+
+
 
 blockquote time {
     font-weight: 400;
