@@ -51,6 +51,8 @@
     font-family: "hwt-american-solid", sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    inset-block-start: 0.52vw;
     }
     
     .tripoli {
@@ -162,12 +164,12 @@ time {
     font-style: normal;
 }
 
-em {
+span {
     color: rgb(17, 25, 138);
     text-shadow: 0.06rem 0.06rem 0.1rem rgb(97, 189, 255);
     }
 
-h1 em {
+h1 span {
     color: #141414;
 }
 
