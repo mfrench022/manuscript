@@ -1,6 +1,6 @@
 :root {
     font-size: 125%;
-    --masthead-offset: 18.35%;
+    --masthead-offset: 17.6%;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -138,17 +138,23 @@ header p {
 
 .main {
     background-color: #F5F5F0;
-    font-size: 5.65rem;
+    font-size: 6.5vw;
     transition: ease-in-out 300ms;
     color: #F5F5F0;
     inset-block-start: 0;
     padding: 2rem;
-    padding-block-end: 1.7rem;
+    padding-block-end: 1rem;
     padding-inline-start: 1.5rem;
     position: fixed;
     width: 100%;
+    height: 8rem;
     line-height: 1.3ex;
     z-index: 10;
+}
+
+.main h1 {
+    position: absolute;
+    inset-block-start: 28%;
 }
 
 time {
@@ -310,5 +316,36 @@ blockquote time {
   50% {
     opacity: 0;
   }
+}
+
+@media (max-width: 1200px) {
+    :root {
+    font-size: 85%;
+    --masthead-offset: 12%;
+    transition: ease-in-out 300ms;
+}
+}
+
+
+@media (max-width: 800px) {
+
+.french, .lupton {
+    padding-inline: 7em;
+
+}
+
+}
+
+@media (max-width: 500px) {
+:root {
+    font-size: 80%;
+    --masthead-offset: 11.25%;
+    transition: ease-in-out 300ms;
+}
+.french, .lupton, footer {
+    padding-inline: 2em;
+
+}
+
 }
 
