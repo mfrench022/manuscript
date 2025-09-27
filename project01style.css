@@ -170,12 +170,12 @@ p {
 
 body {
       background-color: #F5F5F0;
-      margin-block-start: 14rem;
     } 
 
 .lupton {
     padding-inline-end: 32em;
     padding-inline-start: 7em;
+    margin-block-start: 10rem;
 }
 
 blockquote {
