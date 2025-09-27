@@ -1,5 +1,6 @@
 :root {
     font-size: 125%;
+    --masthead-offset: 8.25rem;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -116,7 +117,7 @@ h2 {
     margin-block-start: 2.5em;
     margin-block-end: 0.5em;
     color: #141414;
-    text-decoration: overline rgb(17, 25, 138);
+    border-block-start: solid rgb(17, 25, 138) 0.25rem;
 }
 
 
@@ -129,6 +130,7 @@ header p {
     margin-block-start: -0.6em;
     margin-block-end: 5em;
     color: #141414;
+    padding-block-end: 0.5rem; 
 }
 
 .main {
@@ -143,6 +145,7 @@ header p {
     position: fixed;
     width: 100%;
     line-height: 3.4rem;
+    z-index: 10;
 }
 
 time {
@@ -176,7 +179,7 @@ body {
 .lupton {
     padding-inline-end: 32em;
     padding-inline-start: 7em;
-    margin-block-start: 10rem;
+    margin-block-start: 15.5rem;
 }
 
 blockquote {
@@ -213,7 +216,7 @@ h4 {
     background-color: rgb(17, 25, 138);
     padding-inline-end: 7em;
     padding-inline-start: 32em;
-    padding-block-start: 2.5em;
+    padding-block-start: 3rem;
     padding-block-end: 2.5em;
 }
 
@@ -223,7 +226,7 @@ h4 {
 
 .french h2 {
    color: #F5F5F0;
-   text-decoration: overline rgb(97, 189, 255);
+   border-block-start: solid rgb(97, 189, 255) 0.25rem;
 }
 
 .designer {
@@ -243,6 +246,18 @@ blockquote time {
   font-family: "lores-22-narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.secondary {
+    position: sticky;
+    background-color: rgb(217, 239, 255);
+    inset-block-start: var(--masthead-offset);
+    z-index: 5;
+}
+
+
+.french .secondary {
+    background-color: rgb(17, 25, 138);
 }
 
 
