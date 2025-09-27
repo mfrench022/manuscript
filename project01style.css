@@ -339,12 +339,19 @@ blockquote time {
 @media (max-width: 500px) {
 :root {
     font-size: 80%;
-    --masthead-offset: 12.45%;
+    --masthead-offset: 11.25%;
     transition: ease-in-out 300ms;
 }
 .french, .lupton, footer {
     padding-inline: 2em;
+}
 
+.secondary {
+    position: static;
+}
+
+.main {
+    height: 5rem;
 }
 
 }
