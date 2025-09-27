@@ -132,12 +132,13 @@ header p {
 }
 
 .main {
-    background-color:#F5F5F0;
+    background-color: #F5F5F0;
     font-size: 5rem;
     transition: ease-in-out 300ms;
     color: #F5F5F0;
     inset-block-start: 0;
     padding: 2rem;
+    padding-block-end: 1.7rem;
     padding-inline-start: 7rem;
     position: fixed;
     width: 100%;
@@ -169,7 +170,7 @@ p {
     }
 
 body {
-      background-color: #F5F5F0;
+      background-color: rgba(97, 189, 255, 0.196);
     } 
 
 .lupton {
