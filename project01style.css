@@ -1,6 +1,6 @@
 :root {
     font-size: 125%;
-    --masthead-offset: 8.25rem;
+    --masthead-offset: 8.4rem;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -135,13 +135,13 @@ header p {
 
 .main {
     background-color: #F5F5F0;
-    font-size: 5rem;
+    font-size: 5.65rem;
     transition: ease-in-out 300ms;
     color: #F5F5F0;
     inset-block-start: 0;
     padding: 2rem;
     padding-block-end: 1.7rem;
-    padding-inline-start: 7rem;
+    padding-inline-start: 1.5rem;
     position: fixed;
     width: 100%;
     line-height: 3.4rem;
@@ -253,8 +253,10 @@ blockquote time {
 .secondary {
     position: sticky;
     background-color: rgb(217, 239, 255);
-    inset-block-start: var(--masthead-offset);
     z-index: 5;
+    margin-inline: -2rem;
+    padding-inline: 2rem;
+    inset-block-start: var(--masthead-offset);
 }
 
 
