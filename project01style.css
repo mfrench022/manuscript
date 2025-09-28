@@ -164,7 +164,7 @@ time {
     font-style: normal;
 }
 
-span {
+span, em {
     color: rgb(17, 25, 138);
     text-shadow: 0.06rem 0.06rem 0.1rem rgb(97, 189, 255);
     }
@@ -269,6 +269,7 @@ a {
     text-decoration: underline;
     transition: ease-in-out 300ms;
     color: #141414;
+    text-shadow: none;
 }
 
 a:visited {
