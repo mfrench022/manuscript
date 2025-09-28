@@ -277,6 +277,16 @@ a:visited {
     transition: ease-in-out 300ms;
 }
 
+footer a:visited {
+    color: #141414;
+    transition: ease-in-out 300ms;
+}
+
+footer a:hover {
+    color: rgb(97, 189, 255);
+    transition: ease-in-out 300ms;
+}
+
 a:hover {
     color: rgb(97, 189, 255);
     transition: ease-in-out 300ms;
