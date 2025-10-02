@@ -301,7 +301,8 @@ h4 {
     padding-inline-end: 7rem;
     padding-inline-start: 32rem;
     padding-block-start: 3rem;
-    padding-block-end: 2.5em;
+    padding-block-end: 10em;
+    margin-block-start: 2rem;
 }
 
 .french p {
