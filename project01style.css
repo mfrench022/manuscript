@@ -223,8 +223,8 @@ header p {
 
 p {
       line-height: 2.5ex;
-      margin-block-start: 1.5rem;
-      margin-block-end: 1.5rem;
+      margin-block-start: 2rem;
+      margin-block-end: 2rem;
       color: #141414;
       font-family: "akzidenz-grotesk-next-pro", sans-serif;
       font-weight: 400;
@@ -368,7 +368,7 @@ blockquote time {
     margin-inline: -2rem;
     padding-inline: 2rem;
     inset-block-start: var(--masthead-offset);
-    margin-block-end: 20rem;
+    margin-block-end: 15rem;
     backdrop-filter: blur(0.1rem);
 }
 
