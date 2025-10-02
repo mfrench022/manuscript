@@ -237,13 +237,13 @@ body {
 
 .lupton {
     padding-inline-end: 32em;
-    padding-inline-start: 7em;
+    padding-inline-start: 7rem;
     margin-block-start: 17rem;
 }
 
 footer {
    padding-block: 1em;
-   padding-inline-start: 7em;
+   padding-inline-start: 7rem;
    background-color: rgb(17, 25, 138);
    border-block-start: solid rgb(97, 189, 255) 0.25rem;
 
@@ -267,8 +267,8 @@ blockquote {
     font-size: 1.5rem;
     font-style: italic;
     padding: 4.5rem;
-    padding-inline-start: 3em;
-    padding-inline-end: 0em;
+    padding-inline-start: 3rem;
+    padding-inline-end: 0rem;
     text-align: end;
     }
 
@@ -298,8 +298,8 @@ h4 {
     text-shadow: none;
     font-style: italic;
     background-color: rgb(17, 25, 138);
-    padding-inline-end: 7em;
-    padding-inline-start: 32em;
+    padding-inline-end: 7rem;
+    padding-inline-start: 32rem;
     padding-block-start: 3rem;
     padding-block-end: 2.5em;
 }
