@@ -154,7 +154,7 @@ header p {
 
 .main h1 {
     position: absolute;
-    inset-block-start: 45%;
+    inset-block-start: 55%;
     background-color: #f5f5f074;
     z-index: 100;
 }
@@ -172,39 +172,59 @@ time {
     font-style: normal;
 }
 
+/* Had to use a bit of flex to make this effect work, reviewed here: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+
 .timeline {
-    width: 55vw;
-    background-color: rgb(97, 189, 255);
-    position: absolute;
+    /* background-color: rgb(97, 189, 255); */
+    /* background-color: green; */
     transition: ease-in-out 300ms;
     font-size: 0.65rem;
-    height: 0.05rem;
-    inset-inline-start: 2rem;;
+    width: 58.3vw;
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    margin-block-start: 10rem;
 }
 
-.main .timeline {
-    inset-block-end: 0%;
-    transition: ease-in-out 300ms;
+.timeline .line {
+  flex: 1 1 auto;
+  height: 0.1rem;
+  background-color: rgb(97, 189, 255);
+  margin: 0;
+}
+
+.line {
+
+
+    background-color: rgb(97, 189, 255);
+    height: 0.2rem;
 }
 
 .timeline time {
     transition: ease-in-out 300ms;
-    margin-inline-start: -2.5vw;
     font-family: "akzidenz-grotesk-next-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position: absolute;
-    inset-block-start: -1.6rem;
+    position: static;
+    /* inset-block-start: 0%; */
     /* color: rgb(17, 25, 138); */
 }
 
-
-
-.right {
-    right: 0;
-    transition: ease-in-out 300ms;
-    margin-inline-end: -2vw;
+.timeline time.right {
+  margin-inline-start: 0;
 }
+
+.line { 
+    width: auto; 
+    margin-inline: 0;
+    inset-block-end: auto; 
+}
+
+.main .timeline {
+    inset-block-end: auto; 
+}  
 
 span, em {
     color: rgb(17, 25, 138);
@@ -301,7 +321,7 @@ h4 {
     padding-inline-end: 7rem;
     padding-inline-start: 32rem;
     padding-block-start: 3rem;
-    padding-block-end: 10em;
+    padding-block-end: 8em;
     margin-block-start: 2rem;
 }
 
@@ -362,6 +382,8 @@ blockquote time {
   font-style: normal;
 }
 
+
+/* Learned about backdrop-filter effect thanks to Michael F. */
 .secondary {
     position: sticky;
     background-color: rgba(217, 239, 255, 0.654);
