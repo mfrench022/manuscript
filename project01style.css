@@ -441,6 +441,7 @@ blockquote time {
 
 .french .secondary {
     background-color: rgba(34, 79, 158, 0.764);
+    margin-block-end: 13rem;
 }
 
 .secondary p, .secondary time {
