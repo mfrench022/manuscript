@@ -469,6 +469,10 @@ button:hover {
     transition: ease-in-out 300ms;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 /* I've done a blink effect in other code projects before, but did use this as a reminder: https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */
 
 @keyframes blink {
