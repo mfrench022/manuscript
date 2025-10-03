@@ -1,6 +1,6 @@
 :root {
     font-size: 125%;
-    --masthead-offset: 25.75%;
+    --masthead-offset: 21.4%;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -143,7 +143,7 @@ header p {
     font-size: 6.425vw;
     transition: ease-in-out 300ms;
     color: #F5F5F0;
-    inset-block-start: -11rem;
+    inset-block-start: -13rem;
     padding: 2rem;
     position: sticky;
     width: 100%;
@@ -157,7 +157,7 @@ header p {
     inset-block-start: 55%;
     background-color: #f5f5f074;
     z-index: 100;
-    text-shadow: 0.09rem 0.09rem 0.3rem rgb(97, 189, 255);
+    text-shadow: 0.09rem 0.09rem 0.5rem rgb(97, 189, 255);
 
 }
 
@@ -198,8 +198,6 @@ time {
 }
 
 .line {
-
-
     background-color: rgb(97, 189, 255);
     height: 0.2rem;
 }
@@ -353,7 +351,7 @@ a:visited {
 }
 
 footer a:visited {
-    color: #c6c6c2;
+    color: #dfdfdf;
     transition: ease-in-out 300ms;
 }
 
@@ -375,7 +373,7 @@ blockquote time {
 
 .cursor {
   animation: blink 1s step-start infinite;
-  color: rgb(34, 79, 158);
+  color: #141414;
   font-family: "lores-22-narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
