@@ -426,7 +426,7 @@ blockquote time {
 }
 
 
-/* Learned about backdrop-filter effect thanks to Michael F. */
+/* Learned about backdrop-filter effect thanks to the other Michael F. */
 .secondary {
     position: sticky;
     background-color: rgba(217, 239, 255, 0.654);
@@ -477,9 +477,9 @@ button:hover {
   }
 }
 
-/* Using media queries here to scale down font size and margins for smaller screen sizes. Also used to make mobile version a  single column. */
+/* Using media queries here to scale down font size and margins for smaller screen sizes. Also used to make mobile version a single column. */
 
-/* Also going to have to redo them after lots of edits :/ */
+/* Also going to have to redo them after lots of edits to the rest of the code :/ */
 
 @media (max-width: 1300px) {
 
