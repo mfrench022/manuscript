@@ -1,6 +1,6 @@
 :root {
     font-size: 125%;
-    --masthead-offset: 21.4%;
+    --masthead-offset: 21.45%;
 }
 
 /* START OF HEADING TIMELINE FONTS */
@@ -402,8 +402,26 @@ blockquote time {
     margin-block-start: 1rem;
 }
 
+button {
+    color: #141414;
+    font-family: "akzidenz-grotesk-next-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.7rem;
+    inset-inline-end: 2rem;
+    position: fixed;
+    inset-block-start: -0.06rem;
+    transition: ease-in-out 300ms;
+}
 
+.lupbutton {
+inset-inline-end: 14rem;
+}
 
+button:hover {
+    color: rgb(97, 189, 255);
+    transition: ease-in-out 300ms;
+}
 
 /* I've done a blink effect in other code projects before, but did use this as a reminder: https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */
 
