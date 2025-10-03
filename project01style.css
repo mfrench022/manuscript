@@ -22,6 +22,11 @@
     font-weight: 400;
     font-style: normal;
     }
+
+    p .bodoni {
+        font-size: 1.17rem;
+        letter-spacing: 0.009rem;
+    }
     
     .egyptian {
     font-family: "bodoni-egyptian-pro", serif;
@@ -33,6 +38,11 @@
     font-family: "hwt-slab-antique", serif;
     font-weight: 400;
     font-style: normal;
+    }
+
+    p .egyptian {
+        font-size: 1.1rem;
+        letter-spacing: 0.009rem;
     }
     
     .clarendon {
@@ -47,12 +57,24 @@
     font-style: normal;
     }
     
-    .american {
+   .american {
+    font-family: "hwt-american-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    inset-block-start: 0.1vw;
+    position: relative;
+    }
+
+    header .american {
     font-family: "hwt-american-solid", sans-serif;
     font-weight: 400;
     font-style: normal;
     position: relative;
     inset-block-start: 0.52vw;
+    }
+
+    p .american {
+    font-size: 0.94rem;
     }
     
     .tripoli {
@@ -72,11 +94,19 @@
     font-weight: 400;
     font-style: normal;
     }
+
+    p .futura {
+        font-size: 1.175rem;
+    }
     
     .helvetica {
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
+    }
+
+    p .helvetica {
+        font-size: 0.95rem;
     }
     
     .lores21 {
@@ -84,11 +114,21 @@
     font-weight: 400;
     font-style: normal;
     }
+
+    p .lores21 {
+       font-size: 1.06rem; 
+    }
     
     .lores9 {
     font-family: "lores-9-plus-narrow", sans-serif;
     font-weight: 400;
     font-style: normal;
+    }
+
+    p .lores9 {
+        font-size: 0.95rem;
+        position: relative;
+        inset-block-start: 0.022rem;
     }
 
     .lores12 {
@@ -107,6 +147,11 @@
     font-family: "aw-conqueror-didot", serif;
     font-weight: 400;
     font-style: normal;
+    }
+
+
+    p .didot {
+        font-size: 1.1rem;
     }
 
     /* END OF HEADING TIMELINE FONTS */
@@ -246,6 +291,7 @@ p {
       font-family: "akzidenz-grotesk-next-pro", sans-serif;
       font-weight: 400;
       font-style: normal;
+      letter-spacing: 0.006rem;
     }
 
 body {
@@ -351,7 +397,7 @@ a:visited {
 }
 
 footer a:visited {
-    color: #dfdfdf;
+    color: #F5F5F0;
     transition: ease-in-out 300ms;
 }
 
