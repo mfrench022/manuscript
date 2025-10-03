@@ -120,7 +120,7 @@ h2 {
     margin-block-end: 0.5em;
     padding-block-start: 0.5rem;
     color: #141414;
-    border-block-start: solid rgb(17, 25, 138) 0.25rem;
+    border-block-start: solid rgb(34, 79, 158) 0.25rem;
     line-height: 1.85ex;
 }
 
@@ -157,6 +157,8 @@ header p {
     inset-block-start: 55%;
     background-color: #f5f5f074;
     z-index: 100;
+    text-shadow: 0.09rem 0.09rem 0.3rem rgb(97, 189, 255);
+
 }
 
 .maincontainer {
@@ -208,8 +210,6 @@ time {
     font-weight: 400;
     font-style: normal;
     position: static;
-    /* inset-block-start: 0%; */
-    /* color: rgb(17, 25, 138); */
 }
 
 .timeline time.right {
@@ -227,8 +227,7 @@ time {
 }  
 
 span, em {
-    color: rgb(17, 25, 138);
-    text-shadow: 0.06rem 0.06rem 0.1rem rgb(97, 189, 255);
+    color: rgb(34, 79, 158);
     }
 
 h1 span {
@@ -264,7 +263,7 @@ body {
 footer {
    padding-block: 1em;
    padding-inline-start: 7rem;
-   background-color: rgb(17, 25, 138);
+   background-color: rgb(34, 79, 158);
    border-block-start: solid rgb(97, 189, 255) 0.25rem;
 
 }
@@ -303,7 +302,7 @@ h4 {
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
-    color: rgb(17, 25, 138);
+    color: rgb(34, 79, 158);
     line-height: 1.75ex;
     margin-block: 2.5rem;
 }
@@ -317,11 +316,11 @@ h4 {
 .french {
     text-shadow: none;
     font-style: italic;
-    background-color: rgb(17, 25, 138);
+    background-color: rgb(34, 79, 158);
     padding-inline-end: 7rem;
     padding-inline-start: 32rem;
     padding-block-start: 3rem;
-    padding-block-end: 8em;
+    padding-block-end: 7em;
     margin-block-start: 2rem;
 }
 
@@ -349,7 +348,7 @@ a {
 }
 
 a:visited {
-    color: rgb(17, 25, 138);
+    color: rgb(34, 79, 158);
     transition: ease-in-out 300ms;
 }
 
@@ -376,7 +375,7 @@ blockquote time {
 
 .cursor {
   animation: blink 1s step-start infinite;
-  color: rgb(17, 25, 138);
+  color: rgb(34, 79, 158);
   font-family: "lores-22-narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -397,8 +396,14 @@ blockquote time {
 
 
 .french .secondary {
-    background-color: rgba(17, 25, 138, 0.764);
+    background-color: rgba(34, 79, 158, 0.764);
 }
+
+.secondary p, .secondary time {
+
+    margin-block-start: 1rem;
+}
+
 
 
 
