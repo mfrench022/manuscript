@@ -435,7 +435,7 @@ blockquote time {
     padding-inline: 2rem;
     inset-block-start: var(--masthead-offset);
     margin-block-end: 15rem;
-    backdrop-filter: blur(0.1rem);
+    backdrop-filter: blur(0.2rem);
 }
 
 
