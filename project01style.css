@@ -481,30 +481,16 @@ button:hover {
 
 /* Also going to have to redo them after lots of edits :/ */
 
-/* @media (max-width: 1200px) {
-    :root {
-    font-size: 85%;
-    --masthead-offset: 12%;
-    transition: ease-in-out 300ms;
-}
-}
+@media (max-width: 1300px) {
 
-
-@media (max-width: 800px) {
-
-.french, .lupton {
-    padding-inline: 7em;
-
+.french, .lupton, footer {
+    padding-inline: 4em;
 }
 
 }
 
 @media (max-width: 500px) {
-:root {
-    font-size: 80%;
-    --masthead-offset: 11.25%;
-    transition: ease-in-out 300ms;
-}
+
 .french, .lupton, footer {
     padding-inline: 2em;
 }
@@ -513,10 +499,5 @@ button:hover {
     position: static;
 }
 
-.main {
-    height: 5rem;
-    font-size: 9.6vw;
 }
-
-} */
 
